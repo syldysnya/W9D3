@@ -1,0 +1,25 @@
+ttt {
+    width: 500px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+li {
+  outline: 5px solid black;
+  width: 50px;
+  height: 50px;
+  float: left;
+  transition: outline 0.5s, background-color 0.5s;
+  cursor: pointer;
+  background-color: grey;
+  list-style: none;
+}
+
+li:hover {
+    background-color: yellow;
+}
