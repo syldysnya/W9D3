@@ -1,0 +1,27 @@
+body {
+    display: block;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+.hanoi {
+}
+
+ul {
+    display: block;
+    margin-right: 30px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    width: 150px;
+    border-bottom: 5px solid black;
+    cursor: pointer;
+}
+
+li {
+    background-color: grey;
+}
